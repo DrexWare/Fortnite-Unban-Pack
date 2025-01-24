@@ -1,4 +1,4 @@
-i may keep updating this its ud i believe
+This is NOT in ANY WAY the src to the spoofer it just contains files i use for it!!
 
 ## File Sources
 
@@ -12,6 +12,4 @@ i may keep updating this its ud i believe
 | AppleCleaner.exe | https://applecheats.cc/index.php?/store/category/49-apple-cleaner-free/ |
 | MAC_change.bat | https://gist.github.com/iJos/d561057f1a00d926a47532396a8c71de |
 | AMIDEWIN + AMIFLDRV64 | https://download.lenovo.com/pccbbs/thinkcentre_bios/o2vjya6usa.exe |
-| everything else | https://discord.gg/kWb7MQyr |
-
-run compile.bat to compile it
+| everything else | https://dsc.gg/drexwaregg |
