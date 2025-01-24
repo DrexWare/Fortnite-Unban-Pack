@@ -1,17 +1,6 @@
 @echo off
 title Masculine Unban - Spoofer (skidded from 4u4play but improved)
-:internettest
-cls
-echo waiting for internet reconnection
-echo you may need to manually reconnect to wifi
-echo if no wifi networks exist or not reconnecting
-echo go to device manager then uninstall your network card
-echo its under the network adapters section
-echo it will probably have some kind of brand name
-echo then go to the action section and click "scan for hardware changes"
-echo then you will have internet
-ping www.google.com -n 1 | find "=" > nul
-if errorlevel==1 goto internettest
+
 cls
 cd "%~dp0"
 taskkill /f /im EasyAntiCheat_Setup.exe
@@ -86,18 +75,6 @@ if %size% gtr 6 goto retry
 
 del output.txt /f1>nul 2>nul
 devcon rescan
-:internettest
-cls
-echo waiting for internet reconnection
-echo you may need to manually reconnect to wifi
-echo if no wifi networks exist or not reconnecting
-echo go to device manager then uninstall your network card
-echo its under the network adapters section
-echo it will probably have some kind of brand name
-echo then go to the action section and click "scan for hardware changes"
-echo then you will have internet
-ping www.google.com -n 1 | find "=" > nul
-if errorlevel==1 goto internettest
 cls
 echo scanning for hardware changes
 #devcon rescan
